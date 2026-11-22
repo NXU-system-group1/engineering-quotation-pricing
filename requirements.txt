@@ -1,0 +1,7 @@
+# 工程报价系统 · 奉的报价模块 —— 零第三方依赖
+# 仅需 Python >= 3.9 标准库，无需 pip install 任何包（pip 无源环境可直接运行）。
+# 用到的标准库：sqlite3 / json / decimal / datetime / dataclasses(可选)
+#              / zipfile / xml.etree.ElementTree / xml.sax.saxutils
+#              / re / difflib / unicodedata / pathlib / uuid / contextlib / os
+# 运行：python examples/demo.py
+# 说明：Excel 导出由标准库手写 OOXML 实现，不依赖 openpyxl / xlsxwriter / pandas。

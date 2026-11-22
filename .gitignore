@@ -1,0 +1,26 @@
+# ===== 运行产物：可能含商业报价数据，禁止上传 =====
+output/
+*.db
+*.db-journal
+*.xlsx
+*.xls
+*.xlsm
+
+# ===== 附件中的真实报价资料（如复制到项目内）=====
+报价.zip
+*.zip
+
+# ===== Python 缓存与虚拟环境 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ===== 编辑器 / 操作系统生成文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

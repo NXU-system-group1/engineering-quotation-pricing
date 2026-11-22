@@ -1,0 +1,58 @@
+{
+  "disclaimer": "全部为模拟/脱敏样例数据，非真实商业报价，仅用于联调演示；所有价格均为自造数值，不代表任何真实工程报价。",
+  "items": [
+    {"catalog_key": "pvc_wall", "canonical_name": "墙面PVC饰面", "category": "装饰面层", "material": "PVC", "process": "贴面", "spec": "", "aliases": ["PVC墙面贴面", "PVC饰面板墙面", "墙面PVC贴面"]},
+    {"catalog_key": "wood_veneer", "canonical_name": "木饰面墙面", "category": "装饰面层", "material": "木饰面", "process": "安装", "spec": "", "aliases": ["木饰面板墙面", "墙面木饰面", "木饰面贴面"]},
+    {"catalog_key": "gypsum_ceiling", "canonical_name": "轻钢龙骨石膏板吊顶", "category": "吊顶工程", "material": "石膏板", "process": "安装", "spec": "", "aliases": ["石膏板吊顶", "轻钢龙骨吊顶"]},
+    {"catalog_key": "ceiling_removal", "canonical_name": "原有吊顶拆除", "category": "拆除工程", "material": "", "process": "拆除", "spec": "", "aliases": ["旧吊顶拆除", "吊顶拆除"]},
+    {"catalog_key": "electrical", "canonical_name": "强电电线布置", "category": "电气工程", "material": "铜芯线", "process": "敷设", "spec": "", "aliases": ["电线敷设", "强电布线"]},
+    {"catalog_key": "latex_paint", "canonical_name": "墙面乳胶漆", "category": "涂饰工程", "material": "乳胶漆", "process": "涂刷", "spec": "", "aliases": ["内墙乳胶漆", "墙面刷漆"]},
+    {"catalog_key": "floor_tile", "canonical_name": "地面瓷砖铺贴", "category": "地面工程", "material": "瓷砖", "process": "铺贴", "spec": "", "aliases": ["地砖铺贴", "瓷砖地面"]},
+    {"catalog_key": "ss_railing", "canonical_name": "不锈钢护栏", "category": "金属构件", "material": "不锈钢", "process": "安装", "spec": "", "aliases": ["不锈钢栏杆", "护栏安装"]},
+    {"catalog_key": "ac_grille", "canonical_name": "中央空调出风口格栅", "category": "暖通末端", "material": "铝合金", "process": "安装", "spec": "", "aliases": ["空调出风口", "风口格栅"]},
+    {"catalog_key": "floor_socket", "canonical_name": "铜地插", "category": "电气末端", "material": "铜", "process": "安装", "spec": "", "aliases": ["地面插座", "地插安装"]}
+  ],
+  "prices": [
+    {"catalog_key": "pvc_wall", "price_type": "customer_quote", "unit_price": 86.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-办公装修A", "quote_date": "2024-03-15", "is_confirmed": 1, "construction_note": "基层清理后贴面", "remark": "模拟数据"},
+    {"catalog_key": "pvc_wall", "price_type": "customer_quote", "unit_price": 92.50, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-样板间B", "quote_date": "2024-08-20", "is_confirmed": 1, "construction_note": "基层清理后贴面", "remark": "模拟数据"},
+    {"catalog_key": "pvc_wall", "price_type": "customer_quote", "unit_price": 100.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2025-01-10", "is_confirmed": 1, "construction_note": "基层清理后贴面", "remark": "模拟数据-最新确认价"},
+    {"catalog_key": "pvc_wall", "price_type": "material_cost", "unit_price": 42.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-办公装修A", "quote_date": "2024-03-15", "is_confirmed": 1, "construction_note": "仅材料", "remark": "模拟数据"},
+    {"catalog_key": "pvc_wall", "price_type": "self_construction_cost", "unit_price": 58.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-样板间B", "quote_date": "2024-08-20", "is_confirmed": 1, "construction_note": "自有班组施工", "remark": "模拟数据"},
+    {"catalog_key": "pvc_wall", "price_type": "outsource_cost", "unit_price": 78.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2025-01-10", "is_confirmed": 0, "construction_note": "外包询价未定", "remark": "模拟数据-待确认"},
+
+    {"catalog_key": "wood_veneer", "price_type": "customer_quote", "unit_price": 168.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-样板间B", "quote_date": "2024-08-01", "is_confirmed": 1, "construction_note": "木饰面板安装", "remark": "模拟数据-相似匹配参考"},
+    {"catalog_key": "wood_veneer", "price_type": "material_cost", "unit_price": 88.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-样板间B", "quote_date": "2024-08-01", "is_confirmed": 1, "construction_note": "仅材料", "remark": "模拟数据"},
+
+    {"catalog_key": "gypsum_ceiling", "price_type": "customer_quote", "unit_price": 128.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-办公装修A", "quote_date": "2024-05-01", "is_confirmed": 1, "construction_note": "含龙骨及石膏板", "remark": "模拟数据"},
+    {"catalog_key": "gypsum_ceiling", "price_type": "customer_quote", "unit_price": 135.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2024-11-11", "is_confirmed": 1, "construction_note": "含龙骨及石膏板", "remark": "模拟数据-多历史价"},
+    {"catalog_key": "gypsum_ceiling", "price_type": "material_cost", "unit_price": 62.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-办公装修A", "quote_date": "2024-05-01", "is_confirmed": 1, "construction_note": "仅材料", "remark": "模拟数据"},
+    {"catalog_key": "gypsum_ceiling", "price_type": "outsource_cost", "unit_price": 110.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2024-11-11", "is_confirmed": 1, "construction_note": "外包施工", "remark": "模拟数据"},
+
+    {"catalog_key": "ceiling_removal", "price_type": "customer_quote", "unit_price": 28.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-办公装修A", "quote_date": "2024-06-01", "is_confirmed": 1, "construction_note": "含渣土归堆", "remark": "模拟数据"},
+    {"catalog_key": "ceiling_removal", "price_type": "self_construction_cost", "unit_price": 18.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-办公装修A", "quote_date": "2024-06-01", "is_confirmed": 1, "construction_note": "自有班组", "remark": "模拟数据"},
+
+    {"catalog_key": "electrical", "price_type": "customer_quote", "unit_price": 45.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-培训教室D", "quote_date": "2024-07-01", "is_confirmed": 1, "construction_note": "按面积折算布线", "remark": "模拟数据"},
+    {"catalog_key": "electrical", "price_type": "customer_quote", "unit_price": 48.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2025-02-01", "is_confirmed": 1, "construction_note": "按面积折算布线", "remark": "模拟数据-多历史价"},
+    {"catalog_key": "electrical", "price_type": "material_cost", "unit_price": 22.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-培训教室D", "quote_date": "2024-07-01", "is_confirmed": 0, "construction_note": "仅线材未核定", "remark": "模拟数据-待确认"},
+
+    {"catalog_key": "latex_paint", "price_type": "customer_quote", "unit_price": 32.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-办公装修A", "quote_date": "2024-04-01", "is_confirmed": 1, "construction_note": "两遍面漆", "remark": "模拟数据"},
+    {"catalog_key": "latex_paint", "price_type": "outsource_cost", "unit_price": 24.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-办公装修A", "quote_date": "2024-04-01", "is_confirmed": 1, "construction_note": "外包涂刷", "remark": "模拟数据"},
+
+    {"catalog_key": "floor_tile", "price_type": "customer_quote", "unit_price": 96.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-样板间B", "quote_date": "2024-09-01", "is_confirmed": 1, "construction_note": "含辅材不含主砖", "remark": "模拟数据"},
+    {"catalog_key": "floor_tile", "price_type": "material_cost", "unit_price": 48.00, "pricing_unit": "m2", "source_project": "模拟/脱敏样例-样板间B", "quote_date": "2024-09-01", "is_confirmed": 1, "construction_note": "仅辅材", "remark": "模拟数据"},
+
+    {"catalog_key": "ss_railing", "price_type": "customer_quote", "unit_price": 260.00, "pricing_unit": "m", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2024-10-01", "is_confirmed": 1, "construction_note": "按延米计", "remark": "模拟数据"},
+    {"catalog_key": "ss_railing", "price_type": "outsource_cost", "unit_price": 195.00, "pricing_unit": "m", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2024-10-01", "is_confirmed": 1, "construction_note": "外包制作安装", "remark": "模拟数据"},
+
+    {"catalog_key": "ac_grille", "price_type": "customer_quote", "unit_price": 180.00, "pricing_unit": "套", "source_project": "模拟/脱敏样例-培训教室D", "quote_date": "2024-12-01", "is_confirmed": 1, "construction_note": "按套计", "remark": "模拟数据"},
+    {"catalog_key": "ac_grille", "price_type": "material_cost", "unit_price": 95.00, "pricing_unit": "套", "source_project": "模拟/脱敏样例-培训教室D", "quote_date": "2024-12-01", "is_confirmed": 1, "construction_note": "仅材料", "remark": "模拟数据"},
+
+    {"catalog_key": "floor_socket", "price_type": "customer_quote", "unit_price": 220.00, "pricing_unit": "个", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2025-01-20", "is_confirmed": 1, "construction_note": "按个计", "remark": "模拟数据"},
+    {"catalog_key": "floor_socket", "price_type": "self_construction_cost", "unit_price": 150.00, "pricing_unit": "个", "source_project": "模拟/脱敏样例-展厅C", "quote_date": "2025-01-20", "is_confirmed": 1, "construction_note": "自有班组安装", "remark": "模拟数据"}
+  ],
+  "rules": [
+    {"catalog_key": null, "from_quantity_type": "area", "from_unit": "cm2", "to_pricing_unit": "m2", "conversion_factor": 0.0001, "rule_note": "平方厘米换算平方米；已确认，本版允许使用", "is_confirmed": 1, "confirmed_by": "模拟确认人"},
+    {"catalog_key": null, "from_quantity_type": "length", "from_unit": "m", "to_pricing_unit": "m", "conversion_factor": 1, "rule_note": "延米直通；已确认，本版允许使用", "is_confirmed": 1, "confirmed_by": "模拟确认人"},
+    {"catalog_key": null, "from_quantity_type": "length", "from_unit": "cm", "to_pricing_unit": "m", "conversion_factor": 0.01, "rule_note": "厘米换算米；未确认，本版必须拦截并提示人工确认", "is_confirmed": 0, "confirmed_by": ""}
+  ]
+}

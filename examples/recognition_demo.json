@@ -1,0 +1,74 @@
+{
+  "project_id": "demo001",
+  "project_name": "联调演示项目（模拟）",
+  "items": [
+    {
+      "item_id": "item001",
+      "item_name": "墙面PVC饰面",
+      "material": "PVC",
+      "process": "贴面",
+      "spec": "",
+      "quantity": {"value": 53.7812, "type": "area", "unit": "m2"},
+      "dimensions": {},
+      "evidence": [],
+      "施工部位": "一层展厅墙面",
+      "review_status": "confirmed"
+    },
+    {
+      "item_id": "item002",
+      "item_name": "木饰面板墙面",
+      "material": "木质",
+      "process": "安装",
+      "spec": "",
+      "quantity": {"value": 10, "type": "area", "unit": "m2"},
+      "dimensions": {},
+      "evidence": [],
+      "review_status": "confirmed"
+    },
+    {
+      "item_id": "item003",
+      "item_name": "玻璃隔断安装",
+      "material": "玻璃",
+      "process": "安装",
+      "spec": "",
+      "quantity": {"value": 5, "type": "area", "unit": "m2"},
+      "dimensions": {},
+      "evidence": [],
+      "review_status": "confirmed"
+    },
+    {
+      "item_id": "item004",
+      "item_name": "墙面PVC饰面",
+      "material": "PVC",
+      "process": "贴面",
+      "spec": "",
+      "quantity": {"value": 12, "type": "volume", "unit": "m3"},
+      "dimensions": {},
+      "evidence": [],
+      "review_status": "confirmed"
+    },
+    {
+      "item_id": "item005",
+      "item_name": "墙面乳胶漆",
+      "material": "乳胶漆",
+      "process": "涂刷",
+      "spec": "",
+      "quantity": {"value": 20, "type": "area", "unit": "m2"},
+      "dimensions": {},
+      "evidence": [],
+      "review_status": "pending"
+    },
+    {
+      "item_id": "item006",
+      "item_name": "墙面乳胶漆",
+      "material": "乳胶漆",
+      "process": "涂刷",
+      "spec": "",
+      "quantity": {"value": 50000, "type": "area", "unit": "cm2"},
+      "dimensions": {},
+      "evidence": [],
+      "施工部位": "二层走道墙面",
+      "review_status": "confirmed"
+    }
+  ]
+}
